@@ -1,7 +1,7 @@
 # Provider
 Dependency injection with provider
 
-## Instalation
+## Installation
 
 ```
 Install-Package Provider -Version 1.0.1
