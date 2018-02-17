@@ -3,7 +3,7 @@ Dependency injection with provider
 
 ## Usage
 
-### Add Provider as scoped service @ Startup.cs for your web app
+#### Add Provider as scoped service @ Startup.cs for your web app
 
 ```csharp
         public void ConfigureServices(IServiceCollection services)
@@ -14,7 +14,7 @@ Dependency injection with provider
         }
 ```
 
-### Use provider as injection by specifying <T> which has to be provided
+#### Use provider as injection by specifying <T> which has to be provided
   
 ```csharp
         public ValuesController(IProvider<ValueService> provider)
@@ -23,7 +23,7 @@ Dependency injection with provider
         }
 ```
 
-###  Provider will instantiate a class and if needed will inject required instances from an ServiceProvider.
+####  Provider will instantiate a class and if needed will inject required instances from an ServiceProvider
 
 ```csharp
         [HttpGet]
@@ -33,7 +33,7 @@ Dependency injection with provider
         }
 ```
 
-###  Custom parameters can be passed to inject them
+####  Custom parameters can be passed to inject them
 
 ```csharp
         public IEnumerable<string> Get(int id)
