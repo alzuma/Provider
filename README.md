@@ -1,6 +1,12 @@
 # Provider
 Dependency injection with provider
 
+## Instalation
+
+```
+Install-Package Provider -Version 1.0.0
+```
+
 ## Usage
 
 #### Add Provider as scoped service @ Startup.cs for your web app
