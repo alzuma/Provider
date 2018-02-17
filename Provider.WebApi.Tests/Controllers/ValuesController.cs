@@ -22,7 +22,7 @@ namespace Provider.WebApi.Tests.Controllers
         }
 
         [HttpGet("admin")]
-        public IEnumerable<string> Get(int id)
+        public IEnumerable<string> GetAdmin()
         {
             const string connectionString = "connectToAdminDB";
             return _provider.Get(connectionString).GetValues();

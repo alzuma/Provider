@@ -8,6 +8,7 @@
     <Description>DI with provider</Description>
     <PackageProjectUrl>https://github.com/alzuma/Provider</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/alzuma/Provider/blob/master/LICENSE</PackageLicenseUrl>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
