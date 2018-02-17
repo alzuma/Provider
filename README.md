@@ -20,7 +20,7 @@ Install-Package Provider -Version 1.0.0
         }
 ```
 
-#### Use provider as injection by specifying <T> which has to be provided
+#### Use provider as injection by specifying T which has to be provided
   
 ```csharp
         public ValuesController(IProvider<ValueService> provider)
