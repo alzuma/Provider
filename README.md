@@ -42,9 +42,10 @@ public IEnumerable<string> Get()
 ####  Custom parameters can be passed to inject them
 
 ```csharp
-public IEnumerable<string> Get(int id)
+[HttpGet("admin")]
+public IEnumerable<string> GetAdmin()
 {
-    const string connectionString = "connectToAdminDB";
-    return _provider.Get(connectionString).GetValues();
+	const string connectionString = "connectToAdminDB";
+	return _provider.Get(connectionString).GetValues();
 }
 ```
