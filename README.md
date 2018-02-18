@@ -15,7 +15,7 @@ Install-Package Provider -Version 1.0.1
 public void ConfigureServices(IServiceCollection services)
 {
     // ****
-    services.AddScoped(typeof(IProvider<>), typeof(Provider<>));
+    services.AddProviderInjection();
     // ****
 }
 ```
