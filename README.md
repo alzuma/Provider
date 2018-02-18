@@ -9,7 +9,7 @@ Install-Package Provider -Version 1.0.1
 
 ## Usage
 
-#### Add Provider as scoped service @ Startup.cs for your web app
+#### Add Provider Injection in Startup.cs for your web app
 
 ```csharp
 public void ConfigureServices(IServiceCollection services)
