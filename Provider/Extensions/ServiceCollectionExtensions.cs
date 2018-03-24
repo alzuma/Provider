@@ -7,7 +7,7 @@ namespace Provider.Extensions
     {
         public static void AddProviderInjection(this IServiceCollection services)
         {
-            services.AddScoped(typeof(IProvider<>), typeof(Provider<>));
+            services.AddSingleton(typeof(IProvider<>), typeof(Provider<>));
         }
     }
 }
